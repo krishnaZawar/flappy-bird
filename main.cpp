@@ -30,6 +30,8 @@ int main()
 
     InitWindow(screenWidth, screenHeight, "flappy bird");
 
+    SetTargetFPS(30);
+
     menu:
         while(!isGameStarted && !WindowShouldClose())
         {
